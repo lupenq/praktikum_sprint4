@@ -7,3 +7,11 @@
     left: 30px;
     top: 30px;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__icon {
+        height: 41px;
+        width: 41px;
+        left: 25px;
+        top: 25px;
+    }
+}

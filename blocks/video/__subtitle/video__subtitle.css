@@ -6,3 +6,9 @@
     margin: 18px 0 0 0;
     z-index: 1;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__subtitle {
+        margin: 12px 0 0 0;
+    }
+}

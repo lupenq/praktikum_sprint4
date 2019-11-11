@@ -4,3 +4,10 @@
     font-size: 18px;
     line-height: 30px;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .place__text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

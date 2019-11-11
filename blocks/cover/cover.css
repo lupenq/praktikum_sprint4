@@ -37,3 +37,10 @@
         margin-left: calc(-50vw + 50%);
     }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+    }
+}

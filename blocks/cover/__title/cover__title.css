@@ -8,6 +8,5 @@
 
     top: 50%;
 
-    /* margin: 50% 0 0 0; */
     transform: translateY(-50%);
 }

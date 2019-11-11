@@ -7,7 +7,7 @@
     justify-content: flex-end;
     box-sizing: border-box;
     width: 583px;
-    min-height: 323px;
+    height: 323px;
     border-radius: 5px;
     position: relative;
     padding: 30px;
@@ -34,5 +34,13 @@
     .video__item {
         max-width: 456px;
         max-height: 288px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__item {
+        max-width: 352px;
+        max-height: 200px;
+        padding: 24px;
     }
 }

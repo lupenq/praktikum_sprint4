@@ -14,3 +14,9 @@
       max-width: 684px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead__title {
+     max-width: 720px;
+  }
+}

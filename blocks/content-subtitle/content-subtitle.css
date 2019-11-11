@@ -7,3 +7,9 @@
     width: 640px;
     margin: 48px auto 0 auto;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .content-subtitle {
+        margin: 24px auto 0 auto;
+    }
+}
