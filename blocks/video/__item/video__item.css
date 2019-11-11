@@ -30,7 +30,7 @@
     opacity: 0.8;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) and (max-width: 1280px) {
     .video__item {
         max-width: 456px;
         max-height: 288px;

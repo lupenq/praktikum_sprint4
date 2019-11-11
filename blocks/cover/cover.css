@@ -6,6 +6,9 @@
     position: relative;
     margin-top: 102px;
     background: url("../../images/cover.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 1184px;
     height: 594px;
     text-decoration: none;
@@ -26,4 +29,11 @@
 }
 .cover:hover:before {
     opacity: 0.8;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .cover {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+    }
 }

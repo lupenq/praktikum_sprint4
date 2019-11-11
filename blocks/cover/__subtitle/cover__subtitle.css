@@ -1,7 +1,8 @@
 .cover__subtitle {
     position: absolute;
     bottom: 48px;
-    left: 401px;
+    left: 50%;
+    transform: translateX(-50%);
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
