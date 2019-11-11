@@ -1,0 +1,7 @@
+.video__item_second {
+    background: url("../../../../images/video2.jpg");
+}
+
+.video__item_second:hover {
+    background: url("../../../../images/video2.jpg");
+}

@@ -1,0 +1,8 @@
+@import url("./__item/photo-grid__item.css");
+
+.photo-grid {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 92px;
+}

@@ -1,0 +1,12 @@
+.intro__content-row-text:first-child {
+    flex-basis: 70%;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.intro__content-row-text:last-child {
+    flex-basis: 30%;
+}

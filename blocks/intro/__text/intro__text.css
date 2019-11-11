@@ -1,0 +1,12 @@
+.intro__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+
+  list-style: none;
+
+  padding: 0;
+}

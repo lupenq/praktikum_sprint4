@@ -1,0 +1,7 @@
+.place__paragraph {
+    margin: 0;
+}
+
+.place__paragraph:not(:first-child) {
+    margin-top: 36px;
+}

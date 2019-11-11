@@ -1,0 +1,6 @@
+@import url("./__link/url__link.css");
+@import url("./__heading/url__heading.css");
+
+.url {
+    align-self: end;
+}
