@@ -8,3 +8,9 @@
   line-height: 93px;
   text-align: center;
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .lead__title {
+      max-width: 684px;
+  }
+}

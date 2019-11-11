@@ -1,9 +1,10 @@
 .cover__title {
-    position: relative;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 78px;
     text-align: center;
-    top: 47%;
+
+    margin: 50% 0 0 0;
+    transform: translateY(-50%);
 }

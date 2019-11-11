@@ -1,12 +1,17 @@
-@import url('./__title/intro__title.css');
-@import url('./__text/intro__text.css');
-@import url('./__subtitle/intro__subtitle.css');
-@import url('./__content-row/intro__content-row.css');
-@import url('./__content-row-text/intro__content-row-text.css');
-@import url('./__author/intro__author.css');
-@import url('./__date/intro__date.css');
+@import url("./__title/intro__title.css");
+@import url("./__text/intro__text.css");
+@import url("./__subtitle/intro__subtitle.css");
+@import url("./__content-row-text/intro__content-row-text.css");
+@import url("./__author/intro__author.css");
+@import url("./__date/intro__date.css");
 
 .intro {
-    width: 985px;
+    width: 984px;
     margin: 80px auto 0 auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .intro {
+        max-width: 100%;
+    }
 }

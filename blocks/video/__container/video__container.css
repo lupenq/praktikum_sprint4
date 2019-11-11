@@ -3,3 +3,9 @@
     justify-content: space-between;
     margin-top: 72px;
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .video__container {
+        max-width: 100%;
+    }
+}

@@ -29,3 +29,10 @@
 .video__item:hover:before {
     opacity: 0.8;
 }
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .video__item {
+        max-width: 456px;
+        max-height: 288px;
+    }
+}

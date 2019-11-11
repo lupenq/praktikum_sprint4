@@ -1,8 +1,15 @@
 @import url("./__item/photo-grid__item.css");
 
 .photo-grid {
-  display: grid;
-  grid-gap: 16px;
-  grid-template-columns: repeat(4, 1fr);
-  margin-top: 92px;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 92px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .photo-grid {
+        grid-gap: 14px;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
