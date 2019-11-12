@@ -52,3 +52,11 @@
         padding: 24px;
     }
 }
+
+@media (max-width: 374px) {
+    .video__item {
+        max-width: 288px;
+        max-height: 200px;
+        padding: 24px;
+    }
+}

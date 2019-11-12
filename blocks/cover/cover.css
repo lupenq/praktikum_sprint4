@@ -53,3 +53,12 @@
         margin-top: 64px;
     }
 }
+
+@media (max-width: 374px) {
+    .cover {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        height: 216px;
+        margin-top: 64px;
+    }
+}

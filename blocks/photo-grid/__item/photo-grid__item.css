@@ -14,8 +14,15 @@
 
 @media (min-width: 375px) and (max-width: 767px) {
     .photo-grid__item {
-        /* grid-gap: 16px; */
         width: 343px;
         height: 232px;
+    }
+}
+
+@media (max-width: 374px) {
+    .photo-grid__item {
+        grid-row-gap: 8px;
+        width: 288px;
+        height: 192px;
     }
 }

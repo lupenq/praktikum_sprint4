@@ -25,3 +25,12 @@
         margin-top: 32px;
     }
 }
+
+@media (max-width: 374px) {
+    .place__image {
+        width: 100vw;
+        height: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-top: 32px;
+    }
+}

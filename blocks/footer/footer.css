@@ -17,3 +17,11 @@
         align-items: flex-start;
     }
 }
+
+@media (max-width: 374px) {
+    .footer {
+        flex-direction: column;
+        margin-top: 64px;
+        align-items: flex-start;
+    }
+}

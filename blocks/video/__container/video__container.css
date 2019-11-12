@@ -23,3 +23,11 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 374px) {
+    .video__container {
+        max-width: 100%;
+        margin-top: 24px;
+        flex-direction: column;
+    }
+}

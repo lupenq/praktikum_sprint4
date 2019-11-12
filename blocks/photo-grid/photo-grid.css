@@ -23,9 +23,16 @@
 
 @media (min-width: 375px) and (max-width: 767px) {
     .photo-grid {
-        /* grid-gap: 16px; */
         grid-template-columns: 1fr;
         margin-top: 64px;
+        grid-gap: 15px;
+    }
+}
+
+@media (max-width: 374px) {
+    .photo-grid {
+        grid-template-columns: 1fr;
+        margin-top: 70px;
         grid-gap: 15px;
     }
 }

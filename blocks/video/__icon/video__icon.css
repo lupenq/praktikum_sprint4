@@ -20,3 +20,10 @@
         top: 24px;
     }
 }
+
+@media (max-width: 374px) {
+    .video__icon {
+        left: 24px;
+        top: 24px;
+    }
+}

@@ -23,3 +23,10 @@
         margin: 64px auto 0 auto;
     }
 }
+
+@media (max-width: 374px) {
+    .places {
+        width: 100%;
+        margin: 58px auto 0 auto;
+    }
+}

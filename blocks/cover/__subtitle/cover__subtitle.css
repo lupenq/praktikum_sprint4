@@ -20,3 +20,13 @@
         margin: 0;
     }
 }
+
+@media (max-width: 374px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        width: 288px;
+        bottom: 24px;
+        margin: 0;
+    }
+}

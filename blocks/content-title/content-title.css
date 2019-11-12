@@ -23,3 +23,11 @@
         width: 100%;
     }
 }
+
+@media (max-width: 374px) {
+    .content-title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 100%;
+    }
+}

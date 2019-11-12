@@ -25,3 +25,10 @@
         width: 100%;
     }
 }
+
+@media (max-width: 374px) {
+    .lead {
+        width: 100%;
+    }
+}
+

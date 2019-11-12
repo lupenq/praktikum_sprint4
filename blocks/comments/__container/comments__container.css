@@ -24,3 +24,15 @@
         align-items: center;
     }
 }
+
+@media (max-width: 374px) {
+    .comments__container {
+        margin-top: 48px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+}
+

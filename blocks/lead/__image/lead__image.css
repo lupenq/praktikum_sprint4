@@ -26,3 +26,11 @@
         margin-top: 31px;
     }
 }
+
+@media (max-width: 374px) {
+    .lead__image {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-top: 31px;
+    }
+}

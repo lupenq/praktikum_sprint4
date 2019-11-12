@@ -11,3 +11,9 @@
         margin-top: 24px;
     }
 }
+
+@media (max-width: 374px) {
+    .place__paragraph:not(:first-child) {
+        margin-top: 24px;
+    }
+}

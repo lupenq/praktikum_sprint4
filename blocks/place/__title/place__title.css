@@ -22,3 +22,11 @@
         line-height: 35px;
     }
 }
+
+@media (max-width: 374px) {
+    .place__title {
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -42,3 +42,14 @@
         margin-top: 48px;
     }
 }
+
+@media (max-width: 374px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .place:not(:first-child) {
+        margin-top: 48px;
+    }
+}

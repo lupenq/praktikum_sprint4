@@ -16,3 +16,10 @@
         margin-top: 16px;
     }
 }
+
+@media (max-width: 374px) {
+    .header {
+        width: 100%;
+        margin-top: 16px;
+    }
+}

@@ -8,3 +8,9 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 374px) {
+    .footer__nav {
+        flex-direction: column;
+    }
+}

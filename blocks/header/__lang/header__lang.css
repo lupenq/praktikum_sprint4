@@ -21,3 +21,10 @@
         line-height: 96.82%;
     }
 }
+
+@media (max-width: 374px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 96.82%;
+    }
+}

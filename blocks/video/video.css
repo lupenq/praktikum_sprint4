@@ -15,3 +15,9 @@
         margin-top: 64px;
     }
 }
+
+@media (max-width: 374px) {
+    .video {
+        margin-top: 64px;
+    }
+}

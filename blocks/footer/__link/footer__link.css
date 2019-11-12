@@ -29,3 +29,9 @@
         margin-left: 0;
     }
 }
+
+@media (max-width: 374px) {
+    .footer__link:not(:first-child) {
+        margin-left: 0;
+    }
+}

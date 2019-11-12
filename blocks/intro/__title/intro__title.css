@@ -12,3 +12,10 @@
         line-height: 35px;
     }
 }
+
+@media (max-width: 374px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

@@ -20,3 +20,10 @@
         margin: 17px 0 0 0;
     }
 }
+
+@media (max-width: 374px) {
+    .comment__author {
+        order: 2;
+        margin: 17px 0 0 0;
+    }
+}

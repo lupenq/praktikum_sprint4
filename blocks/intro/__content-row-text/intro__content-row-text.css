@@ -21,3 +21,10 @@
         line-height: 27px;
     }
 }
+
+@media (max-width: 374px) {
+    .intro__content-row-text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

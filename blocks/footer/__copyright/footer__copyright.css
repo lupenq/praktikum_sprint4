@@ -12,3 +12,10 @@
         margin-bottom: 24px;
     }
 }
+
+@media (max-width: 374px) {
+    .footer__copyright {
+        margin-top: 46px;
+        margin-bottom: 24px;
+    }
+}

@@ -9,3 +9,9 @@
         order: 1;
     }
 }
+
+@media (max-width: 374px) {
+    .comment__image {
+        order: 1;
+    }
+}

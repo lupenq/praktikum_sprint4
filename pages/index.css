@@ -46,3 +46,9 @@ body {
         max-width: 343px;
     }
 }
+
+@media (max-width: 374px) {
+    .page {
+        max-width: 288px;
+    }
+}

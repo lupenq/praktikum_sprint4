@@ -9,3 +9,9 @@
         margin-top: 8px;
     }
 }
+
+@media (max-width: 374px) {
+    .video__item_second {
+        margin-top: 8px;
+    }
+}

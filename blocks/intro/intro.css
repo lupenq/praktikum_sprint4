@@ -24,3 +24,9 @@
         max-width: 100%;
     }
 }
+
+@media (max-width: 374px) {
+    .intro {
+        max-width: 100%;
+    }
+}

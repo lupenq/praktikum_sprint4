@@ -28,3 +28,11 @@
         width: 335px;
     }
 }
+
+@media (max-width: 374px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        width: 288px;
+    }
+}

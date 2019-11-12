@@ -9,3 +9,9 @@
         margin-top: 64px;
     }
 }
+
+@media (max-width: 374px) {
+    .comments {
+        margin-top: 64px;
+    }
+}
