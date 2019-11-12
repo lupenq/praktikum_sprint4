@@ -10,3 +10,13 @@
     text-align: center;
     width: 382px;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        width: 288px;
+        bottom: 24px;
+        margin: 0;
+    }
+}

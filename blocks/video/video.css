@@ -10,3 +10,8 @@
     margin-top: 102px;
 }
 
+@media (min-width: 375px) and (max-width: 767px) {
+    .video {
+        margin-top: 64px;
+    }
+}

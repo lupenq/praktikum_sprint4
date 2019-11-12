@@ -44,3 +44,11 @@
         padding: 24px;
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .video__item {
+        max-width: 342px;
+        max-height: 200px;
+        padding: 24px;
+    }
+}

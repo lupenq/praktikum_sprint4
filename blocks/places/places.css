@@ -16,3 +16,10 @@
         margin: 102px auto 0 auto;
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .places {
+        width: 100%;
+        margin: 64px auto 0 auto;
+    }
+}

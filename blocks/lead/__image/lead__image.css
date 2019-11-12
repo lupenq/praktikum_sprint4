@@ -18,3 +18,11 @@
         margin-left: calc(-50vw + 50%);
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .lead__image {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-top: 31px;
+    }
+}

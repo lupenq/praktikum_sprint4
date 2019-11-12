@@ -20,3 +20,12 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .photo-grid {
+        /* grid-gap: 16px; */
+        grid-template-columns: 1fr;
+        margin-top: 64px;
+        grid-gap: 15px;
+    }
+}

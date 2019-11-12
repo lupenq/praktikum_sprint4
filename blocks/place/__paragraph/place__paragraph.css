@@ -5,3 +5,9 @@
 .place__paragraph:not(:first-child) {
     margin-top: 36px;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .place__paragraph:not(:first-child) {
+        margin-top: 24px;
+    }
+}

@@ -23,3 +23,9 @@
         line-height: 27px;
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .footer__link:not(:first-child) {
+        margin-left: 0;
+    }
+}

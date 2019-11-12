@@ -13,3 +13,10 @@
         line-height: 22px;
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .comment__author {
+        order: 2;
+        margin: 17px 0 0 0;
+    }
+}

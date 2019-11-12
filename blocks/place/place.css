@@ -31,3 +31,14 @@
         grid-column-gap: 28px;
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .place {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .place:not(:first-child) {
+        margin-top: 48px;
+    }
+}

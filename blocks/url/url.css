@@ -4,3 +4,9 @@
 .url {
     align-self: end;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .url {
+        display: none;
+    }
+}

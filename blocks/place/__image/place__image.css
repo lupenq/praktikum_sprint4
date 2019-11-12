@@ -16,3 +16,12 @@
         height: 340px;
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .place__image {
+        width: 100vw;
+        height: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-top: 32px;
+    }
+}

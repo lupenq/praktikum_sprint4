@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .footer__nav {
+        flex-direction: column;
+    }
+}

@@ -1,7 +1,7 @@
-@import url('./__caption/lead__caption.css');
-@import url('./__image/lead__image.css');
-@import url('./__subtitle/lead__subtitle.css');
-@import url('./__title/lead__title.css');
+@import url("./__caption/lead__caption.css");
+@import url("./__image/lead__image.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__title/lead__title.css");
 
 .lead {
     width: 985px;
@@ -15,6 +15,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+    .lead {
+        width: 100%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
     .lead {
         width: 100%;
     }

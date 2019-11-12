@@ -9,9 +9,14 @@
 }
 @media (min-width: 768px) and (max-width: 1023px) {
     .video__icon {
-        height: 41px;
-        width: 41px;
         left: 25px;
         top: 25px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .video__icon {
+        left: 24px;
+        top: 24px;
     }
 }

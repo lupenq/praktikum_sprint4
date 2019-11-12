@@ -3,3 +3,9 @@
     background-size: cover;
     background-position: center;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .video__item_second {
+        margin-top: 8px;
+    }
+}

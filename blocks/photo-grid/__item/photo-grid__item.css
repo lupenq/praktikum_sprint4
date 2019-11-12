@@ -11,3 +11,11 @@
         height: 234px;
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .photo-grid__item {
+        /* grid-gap: 16px; */
+        width: 343px;
+        height: 232px;
+    }
+}

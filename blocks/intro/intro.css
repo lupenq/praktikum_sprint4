@@ -18,3 +18,9 @@
         max-width: 720px;
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .intro {
+        max-width: 100%;
+    }
+}

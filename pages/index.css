@@ -40,3 +40,9 @@ body {
         max-width: 720px;
     }
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .page {
+        max-width: 343px;
+    }
+}
