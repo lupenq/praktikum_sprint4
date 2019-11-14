@@ -1,0 +1,33 @@
+.video__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .video__container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .video__container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .video__container {
+        max-width: 100%;
+        margin-top: 24px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 374px) {
+    .video__container {
+        max-width: 100%;
+        margin-top: 24px;
+        flex-direction: column;
+    }
+}

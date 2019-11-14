@@ -1,0 +1,32 @@
+.intro__text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+
+    list-style: none;
+
+    padding: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__text {
+        margin-top: 24px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .intro__text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
+
+@media (max-width: 374px) {
+    .intro__text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

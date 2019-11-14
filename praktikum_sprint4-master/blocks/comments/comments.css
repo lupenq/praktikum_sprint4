@@ -1,0 +1,17 @@
+@import url("./__container/comments__container.css");
+
+.comments {
+    margin-top: 102px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .comments {
+        margin-top: 64px;
+    }
+}
+
+@media (max-width: 374px) {
+    .comments {
+        margin-top: 64px;
+    }
+}

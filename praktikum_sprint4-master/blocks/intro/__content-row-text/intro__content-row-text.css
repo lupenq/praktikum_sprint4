@@ -1,0 +1,30 @@
+.intro__content-row-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    max-width: 683px;
+    margin-top: 35px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro__content-row-text {
+        max-width: 720px;
+        margin-top: 48px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .intro__content-row-text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 374px) {
+    .intro__content-row-text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

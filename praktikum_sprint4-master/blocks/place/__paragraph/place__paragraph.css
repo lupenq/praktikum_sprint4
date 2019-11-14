@@ -1,0 +1,19 @@
+.place__paragraph {
+    margin: 0;
+}
+
+.place__paragraph:not(:first-child) {
+    margin-top: 36px;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .place__paragraph:not(:first-child) {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 374px) {
+    .place__paragraph:not(:first-child) {
+        margin-top: 24px;
+    }
+}

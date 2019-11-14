@@ -1,0 +1,29 @@
+.comment__author {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 24px 0 0 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .comment__author {
+        order: 2;
+        margin: 16px 0 0 0;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .comment__author {
+        order: 2;
+        margin: 17px 0 0 0;
+    }
+}
+
+@media (max-width: 374px) {
+    .comment__author {
+        order: 2;
+        margin: 17px 0 0 0;
+    }
+}

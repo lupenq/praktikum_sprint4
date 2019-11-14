@@ -1,0 +1,18 @@
+@import url("./__link/url__link.css");
+@import url("./__heading/url__heading.css");
+
+.url {
+    align-self: end;
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .url {
+        display: none;
+    }
+}
+
+@media (max-width: 374px) {
+    .url {
+        display: none;
+    }
+}

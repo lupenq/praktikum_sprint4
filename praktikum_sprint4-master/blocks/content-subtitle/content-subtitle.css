@@ -1,0 +1,33 @@
+.content-subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    width: 640px;
+    margin: 48px auto 0 auto;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .content-subtitle {
+        margin: 24px auto 0 auto;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 16px auto 0 auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 374px) {
+    .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        margin: 16px auto 0 auto;
+        width: 100%;
+    }
+}

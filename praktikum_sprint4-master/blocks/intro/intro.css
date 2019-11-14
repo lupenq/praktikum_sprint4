@@ -1,0 +1,32 @@
+@import url("./__title/intro__title.css");
+@import url("./__text/intro__text.css");
+@import url("./__content-row-text/intro__content-row-text.css");
+
+.intro {
+    width: 984px;
+    margin: 80px auto 0 auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .intro {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .intro {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 374px) {
+    .intro {
+        max-width: 100%;
+    }
+}

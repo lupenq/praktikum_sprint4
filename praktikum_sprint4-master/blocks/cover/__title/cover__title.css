@@ -1,0 +1,25 @@
+.cover__title {
+    position: relative;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+@media (max-width: 374px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
